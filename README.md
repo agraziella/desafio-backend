@@ -28,14 +28,14 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 1.  Clone este repositório:
       ```
 	git clone https://github.com/agraziella/desafio-backend.git
-        cd desafio-backend`
+        cd desafio-backend
       ````
         
 2. Crie um ambiente virtual (opcional):
-```
-python -m venv venv
-source venv/bin/activate
-```
+	```
+	python -m venv venv
+	source venv/bin/activate
+	```
 
    -No Windows: 
    
