@@ -26,20 +26,28 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 ### Passos para rodar o projeto
 
 1.  Clone este repositório:
-      `git clone https://github.com/agraziella/desafio-backend.git`
-        `cd desafio-backend`
+      ```
+	git clone https://github.com/agraziella/desafio-backend.git
+        cd desafio-backend`
+      ````
         
 2. Crie um ambiente virtual (opcional):
-`python -m venv venv`
-`source venv/bin/activate  # No Windows: venv\Scripts\activate`
+```
+python -m venv venv
+source venv/bin/activate
+```
 
-3. Instale as dependências do projeto:
+   -No Windows: 
+   
+`venv\Scripts\activate`
+
+4. Instale as dependências do projeto:
 `pip install -r requirements.txt`
 
-4. Inicie o servidor FastAPI:
+5. Inicie o servidor FastAPI:
 `uvicorn main:app --reload` 
 
-5.  Acesse a API no navegador ou via ferramentas como Postman e Insomnia:
+6.  Acesse a API no navegador ou via ferramentas como Postman e Insomnia:
     
     -   Documentação interativa: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
         
